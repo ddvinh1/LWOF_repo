@@ -3,6 +3,9 @@
 :boom::boom::boom: Paper: [Improving Domain Generalization by Learning without Forgetting: Application in Retail Checkout](https://arxiv.org/abs/2207.05422)
 
 :boom::boom::boom: Our solution wins the 1st place Track 4. https://www.aicitychallenge.org/2022-challenge-winners/
+## Note: This is modified repository for academic purposes. For original repo, please go to https://github.com/cybercore-co-ltd/Track4_aicity_2022
+
+
 ## Table of contents
 
 1. [Operating Systems and Hardware Specs](#operating-systems-and-hardware-specs)
@@ -29,11 +32,9 @@
 
 ## Operating Systems and Hardware Specs
 
-- Ubuntu 18.04
-- Intel(R) Xeon(R) Silver 4210R CPU @ 2.40GHz
-- 4 GPUs Quadro RTX 8000 48GB
-- Driver: Version: 495.29.05, CUDA: 11.5
-- RAM: 256GB
+- WSL2 Ubuntu 22.04
+- RTX 3050 Mobile
+- RAM: 16GB
 
 ---
 
