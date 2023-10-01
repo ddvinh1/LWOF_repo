@@ -1,5 +1,5 @@
 import argparse
-import mmcv
+from mmcv import Config
 
 def parse_args():
     parser = argparse.ArgumentParser()
@@ -11,7 +11,7 @@ def parse_args():
 
 args = parse_args()
 
-cfg = mmcv.Config.fromfile(args.cfg)
+cfg = Config.fromfile(args.cfg)
 
 # dataset settings
 base_size = cfg.data.test.pipeline[1].img_scale
