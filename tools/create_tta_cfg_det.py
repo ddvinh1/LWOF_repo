@@ -1,5 +1,5 @@
 import argparse
-from mmcv.config import Config
+from mmcv import Config
 
 def parse_args():
     parser = argparse.ArgumentParser()
